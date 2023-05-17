@@ -1,5 +1,6 @@
-##Sistema Bancario
+## Sistema Bancario
 
+	
 	Neste projeto, é possivel realizar uma operação bancaria simples, usando apenas um usuario.
 O mesmo é capas de realizar depositos em qualquer quantia, desde que seja um valor positivo.
 	Tambem é possivel realizar a visualização do extrato e nele tambem aparece o historio das 
