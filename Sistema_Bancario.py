@@ -119,6 +119,7 @@ def main():
     numero_saques = 0
     usuarios = []
     contas = []
+    numero_conta = 1 
     
     while True:
     
@@ -150,10 +151,10 @@ def main():
              break
         
         elif opcao == 'nc': #Nova Conta
-            numero_conta = len(contas) + 1
             conta = criar_conta(AGENCIA, numero_conta, usuarios)
 
             if conta:
+                numero_conta += 1
                 contas.append(conta)
         
         elif opcao == 'lc': #Lista conta
